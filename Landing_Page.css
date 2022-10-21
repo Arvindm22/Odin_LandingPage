@@ -216,7 +216,7 @@ main {
 footer{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     color: #f9faf8;
 }
@@ -232,4 +232,10 @@ footer button{
     background-color: #3882f6;
     color: #f9faf8;
     border-color: whitesmoke;
+    transition: all 0.25s ease-in;
+}
+footer button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+    transform: scale(1.1);
 }
